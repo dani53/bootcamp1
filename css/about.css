@@ -1,0 +1,41 @@
+.h1 {
+    text: yellow;
+}
+
+.selfie {
+    border: solid #000000;
+    height: 300px;
+    width: 300px;
+    border-color: gold;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.bio-container:after {
+    content:"";
+    display: block;
+    clear: both;
+    font-family: 'Anton', sans-serif;
+}
+
+.bio-section {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.info-section {
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.info-container:after {
+    content:"";
+    display: block;
+    clear: both;
+}

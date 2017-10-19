@@ -1,0 +1,139 @@
+/**Start Nav Style**/
+.body {
+    margin: 0px;
+}
+
+.main-nav {
+    background-color: yellow;
+}
+
+.logo {
+    height: 100px;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 20px;
+    font-weight: bolder;
+}
+.a:hover {
+    color: blue;
+}
+
+/**End Nav Style**/
+
+/**Start Hero Style**/
+.hero-background {
+    background-image: url('../images/sun.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-text {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 225px;
+    color: white;
+}
+.text-background {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/**End Hero Style**/
+
+
+/**START COLUMN STYLES**/
+.column-container {
+    padding: 15px;
+}
+
+.column-container:after {
+    content: "WEEKEND";
+    text-align: center;
+    display: block;
+    clear: both;
+    background-color: yellow;
+}
+
+.column {
+    width: 22.5%;
+    border: 1px solid #000000;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+}
+
+.column-image {
+    width: 100%;
+}
+/**END COLUMN STYLES**/
+
+/**START FOOTER STYLES**/
+
+.main-footer: {
+    border: 1px solid #000000;
+    height: 151px;
+}
+
+.main-footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer-section {
+    width: 33%;
+    height: 150px;
+    float: left;
+    padding: 15px 0 px;
+    background: teal;
+    border-left: 1px solid #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section {
+    height: 50px;
+    width: 150px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.social-media {
+    height: 60px;
+    width: 50px;
+}
+
+.social-media a .fa {
+    color: white;
+}
+
+/**END FOOTER STYLES**/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.selfie {
+    border: solid #000000;
+    height: 300px;
+    width: 300px;
+    border-color: gold;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+
